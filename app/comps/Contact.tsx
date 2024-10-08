@@ -28,7 +28,7 @@ export function TypewriterEffectSmoothDemo() {
   return (
     <div className="flex flex-col items-center justify-center  ">
       <TypewriterEffectSmooth words={words} />
-      <div className=" flex-row md:flex-row  space-y-0 space-x-4">
+      <div className=" flex-row md:flex-row  space-y-0 space-x-2 md:space-x-4">
         {
             urls.map((url,index)=><SocialIcon key={index} url={url} fgColor="#fff" bgColor="#000" style={{ height: 40, width: 40 }} />)
         }
