@@ -9,7 +9,8 @@ export function TypewriterEffectSmoothDemo() {
         "https://www.instagram.com/gdsc_auce/",
         "https://www.youtube.com/channel/UCw2vDOLYKTyNxA4m91QhMCQ",
     
-        "https://www.facebook.com/people/DSC-AUCE/100064837297149/?modal=admin_todo_tour"
+        "https://www.facebook.com/people/DSC-AUCE/100064837297149/?modal=admin_todo_tour",
+        "https://discord.com/invite/D8PFce7jUD"
                    // Gmail
       ];
   const words = [
