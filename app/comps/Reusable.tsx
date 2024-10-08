@@ -9,7 +9,8 @@ interface ReusableProps {
 }
 const Reusable:React.FC<ReusableProps> = ({name,parent}) => {
   return (
-    <div className='mx-auto'>
+    <div>
+ <div className='mx-auto'>
               <div className="relative mt-24 bg-[#2f88e2] h-[40vh] container w-[100%] text-white">
         <Image
           alt="Background"
@@ -26,6 +27,11 @@ const Reusable:React.FC<ReusableProps> = ({name,parent}) => {
         </div>
       </div>
     </div>
+    <div className='h-[40rem]'>
+
+    </div>
+    </div>
+   
   )
 }
 
