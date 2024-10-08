@@ -9,7 +9,7 @@ export const ImagesSlider = ({
   overlay = true,
   overlayClassName,
   className,
-  autoplay = true,
+  
   direction = "up",
 }: {
   images: string[];
@@ -70,16 +70,11 @@ export const ImagesSlider = ({
     window.addEventListener("keydown", handleKeyDown);
 
     // autoplay
-    let interval: any;
-    if (autoplay) {
-      interval = setInterval(() => {
-        handleNext();
-      }, 5000);
-    }
+    
 
     return () => {
       window.removeEventListener("keydown", handleKeyDown);
-      clearInterval(interval);
+     
     };
   }, []);
 
