@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button'
+
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -22,8 +23,15 @@ const Reusable:React.FC<ReusableProps> = ({name,parent}) => {
         />
         <div className="relative z-10 flex flex-col  items-center justify-center space-y-6 ">
           <h1 className="text-6xl font-extrabold mt-24 ">{name}</h1>
-       <Button className='bg-blue-400 '><Link href={"/"}>Home
-       </Link><span className='mx-2'>|</span><Link href={parent}>{name}</Link></Button>
+       <Button className='bg-blue-400 '><Link href={"/"}><span className='-mt-3'>
+       Home
+        </span>
+       </Link><span className='mx-2'>|</span><Link href={parent}><div className='flex'>
+        <span>
+       Go Back
+        </span>
+        
+        </div></Link></Button>
         </div>
       </div>
     </div>
