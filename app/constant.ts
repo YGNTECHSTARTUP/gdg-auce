@@ -116,7 +116,11 @@ export const teams = [
     {
       team: "Team Flutter",
       members: [
-        { name: "B. Srinivasa Nayak", role: "Technical Head" },
+        {
+          name: "Shazin Hijajy",
+          role: "Technical Head", 
+        },
+        { name: "B. Srinivasa Nayak", role: "Member" },
         { name: "Sumalatha", role: "Member" },
         { name: "Bhoomika Mallireddy", role: "Member" },
       ],
@@ -193,7 +197,7 @@ export const teams = [
     team: "Team Cloud",
     members: [
       { name: "SYED Gayas", role: "Technical Head", linkedin: "https://www.linkedin.com" },
-      { name: "Shaik Asif Umeed", role: "Member", linkedin: "https://www.linkedin.com" },
+      { name: "Shaik Asif Umeed", role: "Co Technical Head", linkedin: "https://www.linkedin.com" },
       { name: "Sajith", role: "Member", linkedin: "https://www.linkedin.com" },
       { name: "Abhijeet Pastay", role: "Member", linkedin: "https://www.linkedin.com" },
       { name: "Ayush Thakur", role: "Member", linkedin: "https://www.linkedin.com" },
@@ -209,6 +213,7 @@ export const teams = [
       { name: "Vivek", role: "Core Member", linkedin: "https://www.linkedin.com" },  // Add LinkedIn URL for Vivek
       { name: "Chetana", role: "ML Member", linkedin: "https://www.linkedin.com" },  // Add LinkedIn URL for Chetana
       { name: "Johan Aashish", role: "Events Member", linkedin: "https://www.linkedin.com/in/johan-aashish-367187311/" },
+      {name:"Vinay",role:"Core Member",linkedin:"https://www.linkedin.com"},
       { name: "Gagan", role: "Web Member", linkedin: "https://www.linkedin.com/in/ygntech/" },
     ],
 };
@@ -243,7 +248,8 @@ export const teams = [
   export const teamFlutter = {
     team: "Team Flutter",
     members: [
-      { name: "B. Srinivasa Nayak", role: "Technical Head", linkedin: "https://www.linkedin.com" },
+      {name:"Shazin Hijajy",role:"Technical Head",linkedin:"https://www.linkedin.com"},
+      { name: "B. Srinivasa Nayak", role: "Member", linkedin: "https://www.linkedin.com" },
       { name: "Sumalatha", role: "Member", linkedin: "https://www.linkedin.com" },
       { name: "Bhoomika Mallireddy", role: "Member", linkedin: "https://www.linkedin.com" },
     ],
