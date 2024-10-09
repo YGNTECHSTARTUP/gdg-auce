@@ -41,10 +41,10 @@ const TeamTable:React.FC<Teams> = ({team,members}) => {
           return (
             <TableRow key={index}>
             <TableCell>{index+1}</TableCell>
-            <TableCell><Image src={"/"+member.imgurl+".png"} alt={member.name} height={250} width={250}/></TableCell>
+            <TableCell><Image src={member.imgurl} alt={member.name} height={250} width={250}/></TableCell>
             <TableCell>{member.name}</TableCell>
             <TableCell>{member.role}</TableCell>
-            <TableCell><SocialIcon url={member.linkedin} fgColor="#fff" bgColor="#000" style={{ height: 40, width: 40 }}>
+            <TableCell className="flex"><SocialIcon url={member.linkedin} fgColor="#fff" bgColor="#000" style={{ height: 40, width: 40 }}>
               </SocialIcon>&nbsp;
               <SocialIcon url={"mailto:"+member.email} fgColor="#fff" bgColor="#000" style={{ height: 40, width: 40 }}>
               </SocialIcon></TableCell>

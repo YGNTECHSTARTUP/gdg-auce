@@ -3,7 +3,7 @@ import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 import { SocialIcon } from "react-social-icons";
 export function TypewriterEffectSmoothDemo() {
     const urls = [
-        "https://api.whatsapp.com/send?phone=9032628357",              // WhatsApp// LinkedIn   // Instagram
+        "https://chat.whatsapp.com/GIHMXk5p4ybIdswVWP6t5a",              // WhatsApp// LinkedIn   // Instagram
         "mailto:dscauce@gmail.com",
         "https://linkedin.com/company/gdsc-auce",
         "https://www.instagram.com/gdsc_auce/",
