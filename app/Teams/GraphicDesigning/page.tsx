@@ -1,6 +1,7 @@
 import Reusable from '@/app/comps/Reusable'
 import TeamTable from '@/app/comps/TeamTable'
 import { graphicDesign } from '@/app/constant'
+
 import React from 'react'
 
 const page = () => {
