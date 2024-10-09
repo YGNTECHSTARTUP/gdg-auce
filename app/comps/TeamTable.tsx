@@ -44,9 +44,9 @@ const TeamTable:React.FC<Teams> = ({team,members}) => {
             <TableCell><Image src={member.imgurl} alt={member.name} height={250} width={250}/></TableCell>
             <TableCell>{member.name}</TableCell>
             <TableCell>{member.role}</TableCell>
-            <TableCell className="space-y-2 sm:space-y-0" ><SocialIcon url={member.linkedin} fgColor="#fff" bgColor="#000" style={{ height: 40, width: 40 }}>
+            <TableCell className="space-y-2 sm:space-y-0" ><SocialIcon target="_blank" url={member.linkedin} fgColor="#fff" bgColor="#000" style={{ height: 40, width: 40 }}>
               </SocialIcon>&nbsp;
-              <SocialIcon url={"mailto:"+member.email} fgColor="#fff" bgColor="#000" style={{ height: 40, width: 40 }}>
+              <SocialIcon target="_blank" url={"mailto:"+member.email} fgColor="#fff" bgColor="#000" style={{ height: 40, width: 40 }}>
               </SocialIcon></TableCell>
               
                    </TableRow>
