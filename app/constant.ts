@@ -110,7 +110,7 @@ export const teams = [
         imgurl: "https://media.licdn.com/dms/image/v2/D5603AQG2f6lMdEo_DQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722364057105?e=1733961600&v=beta&t=B5O4C_khX_ICR7jFv2iBjw5b7NCfdk1Qj7Q9_EKZH_c"
       },
       { 
-        name: "DUSI VENKATA SAI KARTHIK", 
+        name: "DUSI VENKATA SAI KARTHIKEYA", 
         role: "Member", 
         linkedin: "https://www.linkedin.com/in/karthikeya-dusi-0182a2290", 
         email: "dvskartikeya@gmail.com", 
@@ -231,6 +231,7 @@ export const teams = [
         { name: "Jyotshna", role: "Member" },
         { name: "Nancy", role: "Member" },
         { name: "Rayudu Siva Sai Prakash (Editing)", role: "Member" },
+      
       ],
     },
     {
@@ -525,6 +526,21 @@ export const teams = [
         email: "rsivasaiprakash121@gmail.com", 
         imgurl: "/dum1.png"
       },
+      {
+       name: "Jyotsna Adari",
+       role: "Member",
+       linkedin: "https://www.linkedin.com/in/jyotsna-adari-270751285/",
+       email: "jyotsna0909.adari@gmail.com",
+       imgurl: "https://media.licdn.com/dms/image/v2/D5603AQHOOjWuKe12Jg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723956841156?e=1733961600&v=beta&t=Q14vJ-mulLxZE4ZldmoXQQhee4YIoDsWUpaCsrT78aU"
+      },
+      
+      {
+        name: "Nancy Florence Thokala",
+        role: "Member",
+        linkedin: "https://www.linkedin.com/in/nancy-florence-tokala-22449227b/",
+        email: "nancyflorencethokala@gmail.com ",
+        imgurl: "/dum1.png"
+   },
     ],
   };
   
@@ -626,10 +642,10 @@ export const teams = [
         role: "Member",
       },
       {
-        name: "Tulasi",
+        name: "Tulasi Maha Lakshmi Ankam",
         email: "tulasiankam001@gmail.com",
         linkedin: "http://www.linkedin.com/in/ankam-tulasi-maha-lakshmi-bb84b4268",
-        imgurl: "/dum1.png",
+        imgurl: "https://media.licdn.com/dms/image/v2/D5603AQFSHoNKdRS2Qg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728511426663?e=1733961600&v=beta&t=o5BSM8BhJe2XUoMjZULlM-NbFYmxNfHSYaJWQnIs6Kg",
         role: "Member",
       },
       {
