@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
+import Link from "next/link";
 
 export function TimelineDemo() {
   const data = [
@@ -41,9 +42,12 @@ export function TimelineDemo() {
       title: "11 OCT 2024 - 11 NOV 2024",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200  text-lg font-extrabold mb-8">
+          <Link href={"/GenAi"}>
+          <h1 className="text-neutral-800 dark:text-neutral-200  text-lg font-extrabold mb-8">
             Started the Gen Ai Study Jam
-          </p>
+          </h1>
+          </Link>
+          
          
           <div className="grid grid-cols-2 gap-4">
             <Image

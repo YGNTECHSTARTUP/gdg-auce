@@ -33,7 +33,7 @@ export function ImagesSliderDemo() {
         </button>
             </Link>
         &nbsp;
-        <Link href={"https://forms.gle/qS4pwnkNDrjWdaks6"}>
+        <Link href={"/GenAi"}>
         <button className="px-2 py-1 md:px-4 md:py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4">
           <span>Gen Ai Study Jam →</span>
           <div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />

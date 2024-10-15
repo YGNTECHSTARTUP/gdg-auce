@@ -24,7 +24,8 @@ interface Teams {
 
 const TeamTable:React.FC<Teams> = ({team,members}) => {
   return (
-    <Table className="container">
+   <div className="container">
+<Table >
     <TableCaption>{team}</TableCaption>
     <TableHeader>
       <TableRow>
@@ -58,6 +59,10 @@ const TeamTable:React.FC<Teams> = ({team,members}) => {
      
     </TableBody>
   </Table>
+   
+   </div>
+
+    
   
   )
 }
